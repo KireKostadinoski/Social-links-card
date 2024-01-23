@@ -73,6 +73,7 @@ body {
     transition: all 0.2s ease-in-out;
     font-size: 12px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .linkBtn:hover{
