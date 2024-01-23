@@ -1,0 +1,81 @@
+@font-face {
+    font-family: MyFont;
+    src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+    font-family: MyFont;
+}
+
+.links-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    /* width: 20%; */
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(38, 37, 37, 0.651);
+}
+
+.links-card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.links-card h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.links-card h5 {
+    margin-bottom: 20px;
+    color:rgba(172, 255, 47, 0.818);
+    font-size: 12px;
+}
+
+.links-card p {
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linkBtn{
+    width: 250px;
+    padding: 10px 40px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background-color: rgba(58, 58, 58, 0.837);
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.linkBtn:hover{
+    background-color: rgba(172, 255, 47, 0.818);
+    color: black;
+}
